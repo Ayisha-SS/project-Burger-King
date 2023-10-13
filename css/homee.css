@@ -7,11 +7,12 @@
 }
 
 #first-page{
-    background-image: linear-gradient(rgba(85, 78, 78, 0.75),rgba(0, 0, 0, 0.75)),url('../images/carousel-2.jpg');
+    background-image: linear-gradient(rgba(118, 113, 113, 0.75),rgba(12, 12, 12, 0.75)),url('../images/carousel-2.jpg');
     background-position: center;
     background-size: cover;
     height:100vh;
 }
+
 .topdown{
     position: fixed;
     padding:15px;
@@ -32,11 +33,13 @@ nav{
     align-items: center;
     width:100%;
     justify-content: space-between;
-    padding:0 10px;
+    padding:10px 25px;
     position: fixed;
     top: 0;
+    height: 120px;
     
 }
+
 nav a{
     font-size: 45px;
     font-weight: bolder;
@@ -61,14 +64,13 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 10px;
-    /* position:relative; */
 }
 nav ul li a{
-    color: white;
+    color: rgb(62, 61, 61);
     text-decoration: none;
     font-weight:normal;
     font-size: 1.3em;
-    margin: 1em;
+    margin: 1em; 
 }
 .active{
     color:darkorange;
@@ -83,7 +85,7 @@ nav ul li a:hover{
     float: right;  
 }
 .dropdown .btn{
-    color:white;
+    color: rgb(62, 61, 61);
     background-color: transparent;
     border: none;
     font-size: larger;
@@ -195,7 +197,6 @@ nav ul li a:hover{
                   /* scnd page */
 #second-page{
     width: 100%;
-    /* height: 600; */
     display: flex;
     justify-content: center;
     gap:10px;
@@ -296,8 +297,6 @@ nav ul li a:hover{
  
                      /* third page */
 #third-page{
-    /* height:500px; */
-    width:100%;
     display: flex;
     margin-top: 150px;
     justify-content: center;
@@ -312,8 +311,11 @@ nav ul li a:hover{
 }
 .img2 img{
     border-radius: 6px;
-    height:600px;
     width:500px;
+    display: block;
+}
+.para2{
+    display: block;
 }
 .abt{
     color:green;
@@ -334,11 +336,8 @@ nav ul li a:hover{
     padding: 10px;
 }
 .but{
-    /* width: 100px; */
-    /* text-align: center; */
-    /* height:35px; */
     padding:15px;
-    border-color:transparent;
+    border: 1px solid darkorange;
     background-color: darkorange;
     border-radius: 5px;
     color: white;
@@ -353,14 +352,11 @@ nav ul li a:hover{
             
                            /* fourth page */
 #fourth-page{
-    /* margin-top: 150px; */
     padding:150px 0;
     display: flex;
-    /* height: 500px; */
     width:100%;
     justify-content: center;
     align-items: center;   
-    /* margin-bottom: 15px;  */
 }
 .para3{
     display: block;
@@ -370,19 +366,17 @@ nav ul li a:hover{
     color:green;
     font-size: 25px;
     text-align: left;
-    /* padding: 10px; */
+    
 }
 .chs{
     color:black;
     font-weight: bold;
     font-size: 50px;
     text-align: left;
-    /* padding: 10px; */
 }
 .grp{
     
     display: grid;
-    /* padding: 10px; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; 
 }
@@ -393,7 +387,7 @@ nav ul li a:hover{
 .para3 p{
     font-size: 15px;
     line-height: 1.5rem;
-    /* padding: 10px; */
+   
 }
 .grp img #left{
     border-radius: 10px 0px 0px 0px;
@@ -403,10 +397,9 @@ nav ul li a:hover{
 }
 .ch{
     width: 500px;
-    /* text-align: center; */
     padding:20px;
     font-size: 20px; 
-    border-color:transparent;
+    border:1px solid darkorange;
     background-color: darkorange;
     border-radius: 5px;
     color: white;
@@ -418,13 +411,9 @@ nav ul li a:hover{
     cursor: pointer;
 }
 .chef{
-    /* box-sizing:border-box; */
     display: block;
-    /* background-color: white; */
     width: 350;
-    
     flex-direction: column;
-    /* padding-left: 20px; */
     padding: 20px;   
 }
 .chef img{
@@ -442,11 +431,8 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 .ing{
-    /* box-sizing: border-box; */
     display: block;
-    
     flex-direction: column;
-    /* padding-left: 20px; */
     padding: 15px; 
 }
 .ing h3{
@@ -466,13 +452,10 @@ nav ul li a:hover{
              
                      /* fifth page */
 #fifth-page{
-    
-    background-color: gainsboro;
-   
+    background-color: gainsboro; 
     padding: 20px;
 }
 .fdbx{
-    /* height:250px; */
     text-align: center;
     justify-content: center;
     margin: 30px;
@@ -480,20 +463,15 @@ nav ul li a:hover{
 }
 .fdbx-cntnt{
     box-shadow:0px 5px 10px 0px rgba(0,0,0,0.15);
-    
     background-color: white;
     border-radius: 10px;
-    
     padding: 50px 20px;
-    
     margin: 20px;
 }
 .fdbx-cntnt img{
     height: 100px;
     width: 150px;
-    /* padding: 30px; */
-    margin:10px;
-    
+    margin:10px; 
 }
 .fdbx-cntnt img:hover{
     filter:hue-rotate(40deg);
@@ -521,7 +499,6 @@ nav ul li a:hover{
                          /* sixth page */
 
 #sixth-page{
-    /* height: 700px; */
     width:100%;
 }
 .para4{
@@ -541,41 +518,36 @@ nav ul li a:hover{
 .buttn{
     padding:10px;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     margin-top:30px
 }
 .buttn .b1{
-
     margin: 0 15px;
     background-color: green;
     color:white;
     border-radius: 5px;
     padding: 10px;
-    
-    border-color: transparent;
+    border: 1px solid green;
 }
 .buttn .b2
     {
-    
     margin: 0 15px;
     background-color: darkorange;
     color:white;
     border-radius: 5px;
     padding: 10px;
+    border: 1px solid ;
     
-    border-color: transparent;
     }
 .buttn .b3
     {
-    
     margin: 0 15px;
     background-color: darkorange;
     color:white;
     border-radius: 5px;
     padding: 10px;
-    
-    border-color: transparent;
+    border: 1px solid ;
+   
     }
 .buttn .b2:hover{
     background-color:green;
@@ -587,9 +559,7 @@ nav ul li a:hover{
 }
 .menu-main{
     display: flex;
-    
     padding: 10px;
-    /* align-items: center; */
     justify-content: center;
 }
 .m1{
@@ -600,14 +570,12 @@ nav ul li a:hover{
 }
 .items{
     display: flex;
-    
     height: 60px;
     margin: 10px;
     align-items: center;
 }
 .items img{
     border-radius: 50%;
-   
     width:60px;
     margin:10px;
 }
@@ -626,28 +594,20 @@ nav ul li a:hover{
 .items p{
     color:gray;
 }
-.m2{
-    /* height:500px; */
-    /* width:400px; */
-    /* margin:30px; */
-}
+
 .m2 img{
     width:350px;
     border-radius:6px ;
-    /* height: 400px; */
 }
 
 
 
              /* seventh page */
 #seventh-page{
-    /* height:800px;   */
     display:block;
     padding:100px;
     justify-content: center;
     align-items: center;  
-   
-    /* width: 100%; */
 }
 .master-head{ 
     display: flex;
@@ -659,9 +619,7 @@ nav ul li a:hover{
 .master-head h4{
     font-size: 25px; 
     color: green;
-    /* padding-top:40px; */
     text-align: center;
-    /* margin-top: 10px; */
 }
 .master-head h3{
     font-size: 50px;
@@ -674,7 +632,6 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     height:600px;
-    /* width:100%; */
 }
 .master-box{
     border-color: rgb(197,190,190);
@@ -684,7 +641,6 @@ nav ul li a:hover{
     border-radius: 10px;
     margin: 40px;
     text-align: center;
-    /* height: 70%; */
 }
 .master-content{
     position: relative;
@@ -693,6 +649,7 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     height: 100%;
+    z-index: -1;
 }
 div.master-content div.overlay{
 position: absolute;
@@ -717,7 +674,6 @@ justify-content: center;
     font-size: 10px;
     color:gray;
     font-weight: lighter;
-    /* text-align: center; */
 }
 .master-icon i{
     color:orange;
@@ -739,7 +695,6 @@ justify-content: center;
 
               /* eight page */
 #eight-page{
-    /* height:450px; */
     background-color: gainsboro;
     display: flex;
     justify-content: center;
@@ -786,7 +741,7 @@ justify-content: center;
            /* nineth page */
 #ninth-page{
     background-color: white;
-    /* width: 100%; */
+    
     padding:60px
 }
 .para6{
@@ -809,6 +764,7 @@ h3{
     padding: 25px;
     margin: 60px;
     display :flex;
+    justify-content: space-between;
 }
 .icon{
     display: flex;
@@ -847,7 +803,7 @@ h3{
     column-gap: 20px;
 }
 .map iframe{
-    /* height:500px; */
+    
     float: left;
     /* width: 500px; */
     padding:10px;
@@ -859,7 +815,7 @@ h3{
     flex-direction: column;
 }
 .form input{
-    /* width:800px; */
+
     height:60px;
     margin-top: 20px;
     padding-left: 10px;
@@ -869,13 +825,11 @@ h3{
 
 .form textarea{
     height:120px;
-    /* width:810px; */
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
 }
 .form button{
-    /* height: 40px; */
     width:150px;
     padding: 20px;
     margin-top:10px;
@@ -922,6 +876,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: -1;
 }
 .up img{
     width: 500px;
@@ -934,7 +889,6 @@ button:hover{
     padding: 30px;
     border-style: none;
     background-color: white;
-    /* justify-content: center; */
     border-radius: 20px;
     padding-left: 20px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
@@ -947,7 +901,6 @@ button:hover{
     line-height: 2.0;
 }
 .down h3{
-    /* margin-top:5px; */
     font-size:20px;
     color:black;
     text-align: left;
@@ -956,22 +909,18 @@ button:hover{
     color:darkorange;
     text-align: left;
 }
-.down ul li i{
-    /* display:flex; */
-    
-}
+
 .down p{
     font-size: 15px;
     color: gray;
     line-height: 1.25;
 }
 .down button{
-    /* height:40px; */
     width:150px;
     padding: 10px;
     background-color: orange;
     color:white;
-    border:none;
+    border:1px solid;
     border-radius: 6px;
     margin:10px;
 }
@@ -986,18 +935,15 @@ button:hover{
                                  /* last page */
 .footer{
     background-color: gainsboro;
-    height:300px;
-    
-    padding:30px;
+    height:350px;
+    padding:40px;
 }
 .main{
     display: block;
 }
 .main-up{
     display:flex;
-    
     justify-content: space-between;
-    /* column-gap: 50px; */
     padding: 10px 50px;
 }
 .left{
@@ -1019,8 +965,7 @@ button:hover{
     padding:10px;
     background-color: orange;
     color: white;
-    border-radius: 50%;
-    
+    border-radius: 50%; 
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1046,10 +991,11 @@ button:hover{
 .center ul li a{
     text-decoration: none;
     color:black;
+    font-size: 15px;
 }
 .center ul li a:hover{
     color:darkorange;
-    font-size:large;
+    font-size:18px;
     transition: 0.3s;
 }
 .center ul li a i{
@@ -1075,7 +1021,6 @@ button:hover{
     width:420px;
 }
 .content label input{
-    /* height:50px; */
     width:350px;
     padding:0 16px;
     border:none;
@@ -1100,7 +1045,6 @@ button:hover{
     font-size:15px;
     color:black;
     text-align: center;
-    
     padding:20px;
 }
 .end span{
@@ -1116,7 +1060,7 @@ button:hover{
 /* ---------------------------About Us----------------------- */
 
 #image{
-    background-image: linear-gradient(rgba(85, 78, 78, 0.75),rgba(69, 66, 66, 0.75)),url('../images/carousel-1.jpg');;
+    background-image: linear-gradient(rgba(94, 86, 86, 0.75),rgba(101, 98, 98, 0.75)),url('../images/carousel-1.jpg');;
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -1149,7 +1093,6 @@ button:hover{
     text-align: center;
     align-items: center;
     justify-content: center;
-    /* width:100%; */
     height: 60px;
 }
 #button2 button{
@@ -1167,7 +1110,6 @@ button:hover{
 }
                                 /* blog-details */
 #details-main{
-    /* width:100%; */
     display: flex;
     padding: 50px;
     
@@ -1218,7 +1160,6 @@ button:hover{
     align-items: center;
     height:150px;
     background-color: gainsboro;
-    
 }
 .details-left .author img{
     border-radius: 50%;
@@ -1241,8 +1182,7 @@ button:hover{
     width:80px;
 }
 .details-left .left-post{
-    height:150px;
-    
+    height:150px; 
     margin-top: 30px;
 }
 .left-post .post{
@@ -1350,9 +1290,7 @@ button:hover{
     color:black;
 }
 .details-left .comment-box{
-    /* height:900px; */
     margin:10px;
-   
 }
 .details-left .comment-box h4{
     font-size: 20px;
@@ -1372,7 +1310,6 @@ button:hover{
     width:600px;
     height:40px;
     margin-left: 20px;
-    /* padding-left: 10px; */
     border:1px solid black;
     border-radius:10px; 
 }
@@ -1380,8 +1317,6 @@ button:hover{
     width:600px;
     height:120px;
     margin-left: 20px;
-    
-    /* padding-left: 10px; */
     border:1px solid black;
     border-radius:10px; 
 }
@@ -1396,9 +1331,7 @@ button:hover{
     margin-bottom: 10px;
 }
 #details-main .details-right{
-    
     padding: 30px;
-    /* margin-right: 100px; */
 }
 .details-right .search{
     border:1px solid gray ;

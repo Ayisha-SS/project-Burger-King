@@ -508,6 +508,23 @@
         </div>
     </footer>
     </section>
+
+    <script>
+        window.addEventListener('scroll',function(){
+    var header = document.querySelector('nav');
+    var text = document.querySelector('nav ul li a');
+
+    if(window.scrollY>900){
+        header.style.backgroundColor = '#fff';
+        
+        // text.style.color = '#000'
+    }else{
+        header.style.backgroundColor = 'transparent';
+        // text.style.color = '#fff'
+
+    }
+})
+    </script>
 </body>
 
 </html>
